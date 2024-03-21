@@ -68,7 +68,7 @@ async def show_chat_modes_handle(update: Update, context: ContextTypes.DEFAULT_T
     current_model = model_list[current_model_index]
     message_local = """
     Используется модель {model} (https://cloud.yandex.ru/ru/docs/yandexgpt/concepts/models)
-    Чтобы поменять модель используй команды:
+Чтобы поменять модель используй команды:
     /model = lite     для GPT lite
     /model = pro      для GPT pro
     """
