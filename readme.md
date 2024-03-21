@@ -1,12 +1,12 @@
 ### Краткая информация
-Telegram-бот на serverless-стеке Yandex Cloud, который использует YandexGPT при ответе на вопросы прользователей. 
+Telegram-бот на serverless-стеке Yandex Cloud, который использует GPT при ответе на вопросы прользователей. 
 Реализован с помощью библиотеки [python-telegram-bot](https://docs.python-telegram-bot.org/en/stable/index.html) на Python.
 Данная версия бота не помнит предыдущие сообщения, поэтому решение задачи проводится в рамках текущего вопроса.
 
 Настройки telegram-бота можно менять по своему усмотрению.
 
 В стоимость ресурсов для приложения входят:
-- Плата за "общение" с моделью YandexGPT (см. [тарифы YandexGPT](https://cloud.yandex.ru/ru/docs/yandexgpt/pricing))
+- Плата за "общение" с моделью GPT (см. [тарифы GPT](https://cloud.yandex.ru/ru/docs/yandexgpt/pricing))
 - Плата за количество вызовов функции, вычислительные ресурсы, выделенные для выполнения функции, и исходящий трафик (см. [тарифы Yandex Cloud Functions](https://cloud.yandex.ru/ru/docs/functions/pricing)).
 - Плата за количество запросов к API-шлюзу и исходящий трафик (см. [тарифы Yandex API Gateway](https://cloud.yandex.ru/ru/docs/api-gateway/pricing)).
 - Плата за количество запросов к стандартной очереди (см. [тарифы Yandex Message Queue](https://cloud.yandex.ru/ru/docs/message-queue/pricing)).
@@ -28,7 +28,7 @@ Telegram-бот на serverless-стеке Yandex Cloud, который испо
 
 5. На панели слева выберите Магазин приложений.
 
-6. Выберите `Demo Telegram Bot YandexGPT` (или `Demo Telegram Bot`, но тогда придется добавить в проект все исходные файлы из данного репозитория и поменять среду исполнения на Python) и нажмите кнопку Использовать.
+6. Выберите `Demo Telegram Bot GPT` (или `Demo Telegram Bot`, но тогда придется добавить в проект все исходные файлы из данного репозитория и поменять среду исполнения на Python) и нажмите кнопку Использовать.
 
 7. Укажите:
 
@@ -72,7 +72,7 @@ curl.exe `
 - [Документация Yandex API Gateway](https://cloud.yandex.ru/ru/docs/api-gateway/)
 - [Документация Yandex Message Queue](https://cloud.yandex.ru/ru/docs/message-queue/)
 - [Документация Yandex Lockbox](https://cloud.yandex.ru/ru/docs/lockbox/)
-- [Документация YandexGPT API](https://cloud.yandex.ru/ru/docs/yandexgpt/)
+- [Документация GPT API](https://cloud.yandex.ru/ru/docs/yandexgpt/)
 
 ### Техническая поддержка
 Служба технической поддержки Yandex Cloud отвечает на запросы 24 часа в сутки, 7 дней в неделю. Доступные виды запросов и срок их обработки зависят от тарифного плана. Подключить платную поддержку можно в [консоли управления](https://support.yandex.cloud/plans?section=plan). Подробнее о порядке оказания [технической поддержки](https://cloud.yandex.ru/ru/docs/support/overview).
