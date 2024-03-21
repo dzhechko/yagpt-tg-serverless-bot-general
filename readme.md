@@ -68,11 +68,11 @@ curl.exe `
 11. Напишите боту в Telegram.
 
 ### Полезные ссылки
-[Документация Yandex Cloud Functions](https://cloud.yandex.ru/ru/docs/functions/)
-[Документация Yandex API Gateway](https://cloud.yandex.ru/ru/docs/api-gateway/)
-[Документация Yandex Message Queue](https://cloud.yandex.ru/ru/docs/message-queue/)
-[Документация Yandex Lockbox](https://cloud.yandex.ru/ru/docs/lockbox/)
-[Документация YandexGPT API](https://cloud.yandex.ru/ru/docs/yandexgpt/)
+- [Документация Yandex Cloud Functions](https://cloud.yandex.ru/ru/docs/functions/)
+- [Документация Yandex API Gateway](https://cloud.yandex.ru/ru/docs/api-gateway/)
+- [Документация Yandex Message Queue](https://cloud.yandex.ru/ru/docs/message-queue/)
+- [Документация Yandex Lockbox](https://cloud.yandex.ru/ru/docs/lockbox/)
+- [Документация YandexGPT API](https://cloud.yandex.ru/ru/docs/yandexgpt/)
 
 Техническая поддержка
 Служба технической поддержки Yandex Cloud отвечает на запросы 24 часа в сутки, 7 дней в неделю. Доступные виды запросов и срок их обработки зависят от тарифного плана. Подключить платную поддержку можно в [консоли управления](https://support.yandex.cloud/plans?section=plan). Подробнее о порядке оказания [технической поддержки](https://cloud.yandex.ru/ru/docs/support/overview).
