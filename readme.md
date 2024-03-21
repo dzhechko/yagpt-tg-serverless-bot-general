@@ -20,7 +20,7 @@ Telegram-бот на serverless-стеке Yandex Cloud, который испо
 1.3. Укажите имя пользователя вашего бота, например ServerlessHelloTelegramBot. По имени пользователя можно будет найти бота в Telegram. Имя пользователя должно оканчиваться на ...Bot или ..._bot.
 На экране появится токен Telegram-бота.
 
-2. [Создайте](https://cloud.yandex.ru/docs/lockbox/operations/secret-create) секрет Yandex Lockbox. Нужен секрет для телеграмм-бота и для YandexGPT. В поле Ключ секрета для телеграмм-бота укажите `TG_TOKEN`, в поле Значение — полученный токен Telegram-бота. Добавьте еще 2 пары Key-Value для YandexGPT, необходимо завести два Ключа и указать их значения: `YAGPT_FOLDER_ID` и `YAGPT_API_KEY`. Для получения `YAGPT_API_KEY` необходимо создать [сервисный аккаунт](https://cloud.yandex.ru/ru/docs/iam/quickstart-sa), которому должны быть назначены роли ai.languageModels.user для доступа к модели YandexGPT.
+2. [Создайте](https://cloud.yandex.ru/docs/lockbox/operations/secret-create) секрет Yandex Lockbox. Нужен секрет для телеграмм-бота и для GPT. В поле Ключ секрета для телеграмм-бота укажите `TG_TOKEN`, в поле Значение — полученный токен Telegram-бота. Добавьте еще 2 пары Key-Value для GPT, необходимо завести два Ключа и указать их значения: `YAGPT_FOLDER_ID` и `YAGPT_API_KEY`. Для получения `YAGPT_API_KEY` необходимо создать [сервисный аккаунт](https://cloud.yandex.ru/ru/docs/iam/quickstart-sa), которому должны быть назначены роли ai.languageModels.user для доступа к модели GPT.
 
 3. В [консоли](https://console.cloud.yandex.com/) управления выберите каталог, в котором хотите развернуть приложение.
 
@@ -87,7 +87,7 @@ curl.exe `
 | Бессерверная функция  | 1   |
 | Триггер	   | 1   |
 | API-шлюз  | 1   |
-| YandexGPT API  | 1   |
+| GPT API  | 1   |
 
 
 ### Лицензионное соглашение
