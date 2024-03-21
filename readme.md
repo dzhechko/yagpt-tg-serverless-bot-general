@@ -74,7 +74,7 @@ curl.exe `
 - [Документация Yandex Lockbox](https://cloud.yandex.ru/ru/docs/lockbox/)
 - [Документация YandexGPT API](https://cloud.yandex.ru/ru/docs/yandexgpt/)
 
-Техническая поддержка
+### Техническая поддержка
 Служба технической поддержки Yandex Cloud отвечает на запросы 24 часа в сутки, 7 дней в неделю. Доступные виды запросов и срок их обработки зависят от тарифного плана. Подключить платную поддержку можно в [консоли управления](https://support.yandex.cloud/plans?section=plan). Подробнее о порядке оказания [технической поддержки](https://cloud.yandex.ru/ru/docs/support/overview).
 
 ### Ресурсы приложения
